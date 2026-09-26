@@ -1,0 +1,82 @@
+[
+  {
+    "id": "SRV-001",
+    "name": "Traje de 2 Piezas",
+    "category": "Tintorería",
+    "price": 180.0,
+    "available": true,
+    "turnaroundHours": 24
+  },
+  {
+    "id": "SRV-002",
+    "name": "Vestido de Gala",
+    "category": "Tintorería",
+    "price": 320.0,
+    "available": true,
+    "turnaroundHours": 48
+  },
+  {
+    "id": "SRV-003",
+    "name": "Camisa de Vestir (Lavado y Planchado)",
+    "category": "Planchado",
+    "price": 45.0,
+    "available": true,
+    "turnaroundHours": 24
+  },
+  {
+    "id": "SRV-004",
+    "name": "Pantalón de Vestir",
+    "category": "Tintorería",
+    "price": 90.0,
+    "available": false,
+    "turnaroundHours": 24
+  },
+  {
+    "id": "SRV-005",
+    "name": "Edredón Pluma Matrimonial",
+    "category": "Lavado en Agua",
+    "price": 250.0,
+    "available": true,
+    "turnaroundHours": 72
+  },
+  {
+    "id": "SRV-006",
+    "name": "Carga de Ropa por Kilo (4kg min)",
+    "category": "Lavado en Agua",
+    "price": 110.0,
+    "available": true,
+    "turnaroundHours": 12
+  },
+  {
+    "id": "SRV-007",
+    "name": "Chamarra de Piel / Cuero",
+    "category": "Cuidado Especial",
+    "price": 450.0,
+    "available": true,
+    "turnaroundHours": 96
+  },
+  {
+    "id": "SRV-008",
+    "name": "Abrigo de Lana",
+    "category": "Tintorería",
+    "price": 280.0,
+    "available": true,
+    "turnaroundHours": 48
+  },
+  {
+    "id": "SRV-009",
+    "name": "Tenis Deportivos (Par)",
+    "category": "Cuidado Especial",
+    "price": 160.0,
+    "available": false,
+    "turnaroundHours": 48
+  },
+  {
+    "id": "SRV-010",
+    "name": "Mantelería de Evento (Pieza)",
+    "category": "Planchado",
+    "price": 75.0,
+    "available": true,
+    "turnaroundHours": 24
+  }
+]

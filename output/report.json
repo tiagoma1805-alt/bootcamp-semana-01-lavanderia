@@ -1,0 +1,108 @@
+{
+  "generatedAt": "2026-09-26T13:55:27.572Z",
+  "appliedFilter": "Calzado",
+  "summary": {
+    "totalServices": 10,
+    "activeServices": 8,
+    "inactiveServices": 2,
+    "averagePrice": 196,
+    "mostExpensive": {
+      "id": "SRV-007",
+      "name": "Chamarra de Piel / Cuero",
+      "category": "Cuidado Especial",
+      "price": 450,
+      "available": true,
+      "turnaroundHours": 96
+    },
+    "cheapest": {
+      "id": "SRV-003",
+      "name": "Camisa de Vestir (Lavado y Planchado)",
+      "category": "Planchado",
+      "price": 45,
+      "available": true,
+      "turnaroundHours": 24
+    }
+  },
+  "items": [
+    {
+      "id": "SRV-001",
+      "name": "Traje de 2 Piezas",
+      "category": "Tintorería",
+      "price": 180,
+      "available": true,
+      "turnaroundHours": 24
+    },
+    {
+      "id": "SRV-002",
+      "name": "Vestido de Gala",
+      "category": "Tintorería",
+      "price": 320,
+      "available": true,
+      "turnaroundHours": 48
+    },
+    {
+      "id": "SRV-003",
+      "name": "Camisa de Vestir (Lavado y Planchado)",
+      "category": "Planchado",
+      "price": 45,
+      "available": true,
+      "turnaroundHours": 24
+    },
+    {
+      "id": "SRV-004",
+      "name": "Pantalón de Vestir",
+      "category": "Tintorería",
+      "price": 90,
+      "available": false,
+      "turnaroundHours": 24
+    },
+    {
+      "id": "SRV-005",
+      "name": "Edredón Pluma Matrimonial",
+      "category": "Lavado en Agua",
+      "price": 250,
+      "available": true,
+      "turnaroundHours": 72
+    },
+    {
+      "id": "SRV-006",
+      "name": "Carga de Ropa por Kilo (4kg min)",
+      "category": "Lavado en Agua",
+      "price": 110,
+      "available": true,
+      "turnaroundHours": 12
+    },
+    {
+      "id": "SRV-007",
+      "name": "Chamarra de Piel / Cuero",
+      "category": "Cuidado Especial",
+      "price": 450,
+      "available": true,
+      "turnaroundHours": 96
+    },
+    {
+      "id": "SRV-008",
+      "name": "Abrigo de Lana",
+      "category": "Tintorería",
+      "price": 280,
+      "available": true,
+      "turnaroundHours": 48
+    },
+    {
+      "id": "SRV-009",
+      "name": "Tenis Deportivos (Par)",
+      "category": "Cuidado Especial",
+      "price": 160,
+      "available": false,
+      "turnaroundHours": 48
+    },
+    {
+      "id": "SRV-010",
+      "name": "Mantelería de Evento (Pieza)",
+      "category": "Planchado",
+      "price": 75,
+      "available": true,
+      "turnaroundHours": 24
+    }
+  ]
+}
