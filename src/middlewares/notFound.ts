@@ -1,8 +1,8 @@
-import { Request, Response, NextFunction } from 'express';
+import { Request, Response } from 'express';
 
-export const notFound = (req: Request, res: Response, _next: NextFunction) => {
+export const notFound = (_req: Request, res: Response) => {
   res.status(404).json({
-    status: 'fail',
-    message: `Ruta no encontrada: ${req.method} ${req.originalUrl}`,
+    success: false,
+    message: 'Ruta no encontrada',
   });
 };

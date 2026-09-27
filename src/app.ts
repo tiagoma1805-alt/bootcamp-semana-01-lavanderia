@@ -1,18 +1,20 @@
 import express from 'express';
-import { morganMiddleware } from './config/logger';
-import servicesRoutes from './routes/services.routes';
-import { notFound } from './middlewares/notFound';
+import cookieParser from 'cookie-parser';
+import authRouter from './routes/auth.routes';
+import orderRouter from './routes/order.routes';
 import { errorHandler } from './middlewares/errorHandler';
+import { notFound } from './middlewares/notFound';
 
 const app = express();
 
 app.use(express.json());
-app.use(morganMiddleware);
+app.use(cookieParser());
 
-// Endpoint principal
-app.use('/api/v1/services', servicesRoutes);
+// Rutas de la API (Deben ir ANTES de notFound)
+app.use('/api/v1/auth', authRouter);
+app.use('/api/v1/orders', orderRouter);
 
-// Middlewares de errores
+// Manejo de errores y 404 (Siempre al final)
 app.use(notFound);
 app.use(errorHandler);
 

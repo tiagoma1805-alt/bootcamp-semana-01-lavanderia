@@ -1,12 +1,14 @@
+import 'dotenv/config'; // <-- ¡Esta línea DEBE ser la primera!
 import app from './app';
-import { logger } from './config/logger';
+import { connectDB } from './lib/mongoose';
 
 const PORT = process.env.PORT || 3000;
 
-app.listen(PORT, () => {
-  console.log(`\n=================================`);
-  console.log(`🚀 SERVIDOR LISTO EN PUERTO ${PORT}`);
-  console.log(`🧺 Ruta: http://localhost:${PORT}/api/v1/services`);
-  console.log(`=================================\n`);
-  logger.info(`🚀 Servidor ejecutándose en http://localhost:${PORT}`);
-});
+const startServer = async () => {
+  await connectDB();
+  app.listen(PORT, () => {
+    console.log(`Servidor corriendo en http://localhost:${PORT}`);
+  });
+};
+
+startServer();
